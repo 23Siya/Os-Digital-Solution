@@ -3,8 +3,11 @@ import AboutUs from './AboutUs';
 import Services from './Services';
 import ContactUs from './ContactUs';
 import PartnerWithUs from './PartnerWithUs';
+import Help from './Help';
 
 const Dashboard = () => {
+    
+    
   return (
     <main className="container mx-auto px-0 py-1">
       {/* About Us Section */}
@@ -26,6 +29,12 @@ const Dashboard = () => {
       <section id="partnerwithus" className="mb-0">
         <PartnerWithUs />
       </section>
+
+       {/* Partner With Us Section */}
+       <section id="help" className="mb-0">
+        <Help />
+      </section>
+      
     </main>
   );
 };
