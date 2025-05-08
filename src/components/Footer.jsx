@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"; // Import icon
 
 function Footer() {
   return (
-    <footer className="bg-[rgba(19,19,19,0.8)] text-gray-200 py-6 border-t border-white/10">
+    <footer className="bg-[rgba(19,19,19,0.8)] text-gray-200 py-6 border-t border-white/10 mt-3">
       <div className="max-w-5xl mx-auto px-4 text-center">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Social Links */}
@@ -84,7 +84,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/faq" className="hover:text-blue-500">
+                <a href="#faq" className="hover:text-blue-500">
                   FAQ
                 </a>
               </li>
